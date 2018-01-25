@@ -12,5 +12,4 @@ int main()
 {
     Controller app;
     app.start();
-    return 255;
 }

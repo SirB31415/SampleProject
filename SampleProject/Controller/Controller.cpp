@@ -17,8 +17,13 @@ Controller :: Controller()
 
 void Controller :: start()
 {
-    for (int index = 0; index < 10; index++)
+    string name = "Parker Brailow";
+    cout << name << endl;
+    for (int index = 13; index < 32; index ++)
     {
-        cout << "this is the " << index + 1<< " time in the loop" << endl;
+        cout << "This is the " << index << " time the loop has iterated" << endl;
     }
+    string *address;
+    address = &name;
+    cout << address << endl;
 }
